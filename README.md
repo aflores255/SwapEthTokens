@@ -76,7 +76,7 @@ All swap functions are tested with real user addresses and token balances on the
 
 - [OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
 - [Foundry](https://book.getfoundry.sh/)
-- [`IRouterV2.sol`](./interfaces/IRouterV2.sol) - Custom interface compatible with Uniswap V2
+- [`IRouterV2.sol`](https://github.com/aflores255/SwapEthTokens/blob/master/src/interfaces/IRouterV2.sol) - Custom interface compatible with Uniswap V2
 
 ---
 
