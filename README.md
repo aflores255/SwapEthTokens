@@ -1,10 +1,10 @@
-# 🔁 SwapEthTokensApp
+# 🔁 SwapEthTokensApp – A Smart Contract for Token and ETH Swaps Using a Uniswap V2-Compatible Router
 
 ## 📌 Description
 
-**SwapEthTokensApp** is a Solidity smart contract that allows users to seamlessly swap between ERC-20 tokens and ETH using a Uniswap V2-compatible router. It supports most major swap scenarios including token-to-token, ETH-to-token, and token-to-ETH swaps.
+**SwapEthTokensApp** is a versatile and gas-efficient Solidity smart contract that enables users to perform secure and seamless swaps between ERC-20 tokens and ETH. Designed to work with any Uniswap V2-compatible router, it covers all major swap operations including token-to-token, ETH-to-token, and token-to-ETH – making it a powerful DeFi building block for any dApp.
 
-Built with **Solidity 0.8.28**, the contract uses OpenZeppelin's `SafeERC20` for secure token interactions and includes a comprehensive test suite written in **Foundry**, deployed and tested on **Arbitrum One**.
+Built with **Solidity 0.8.28**, the contract uses OpenZeppelin's `SafeERC20` for secure token interactions and includes a comprehensive test suite written in **Foundry**, tested on **Arbitrum One**.
 
 ---
 
@@ -69,6 +69,13 @@ All swap functions are tested with real user addresses and token balances on the
 | `testSwapTokensForExactETH` | Tests token-to-ETH swap with fixed output. |
 | `testSwapExactETHForTokens` | Tests ETH-to-token swap with fixed input. |
 | `testIncorrectSwapExactETHForTokens` | Ensures function reverts with 0 ETH input. |
+
+### 📊 Coverage Report
+
+| File                    | % Lines         | % Statements     | % Branches      | % Functions     |
+|-------------------------|------------------|-------------------|------------------|------------------|
+| `src/SwapEthTokensApp.sol` | 100.00% (30/30) | 100.00% (25/25) | 100.00% (2/2) | 100.00% (6/6)   |
+
 
 ---
 
